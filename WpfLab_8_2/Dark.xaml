@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="DarkWindowStyle">
+        <Setter Property="ItemsControl.Background" Value="Black"/>
+    </Style>
+    <Style x:Key="DarkTextBlockStyle"  BasedOn="{StaticResource DarkWindowStyle}">
+        <Setter Property="TextBlock.Foreground" Value="White"/>
+    </Style>
+    
+</ResourceDictionary>
